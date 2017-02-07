@@ -31,7 +31,7 @@ var db_setup = function(database) {
 };
 
 app.get('/', (req, res) => {
-    var text = 'Try this';
+    var text = 'Short URL 100, 101, 102 is by default already set. Try them';
     res.send(text)
 });
 
